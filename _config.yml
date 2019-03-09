@@ -1,42 +1,26 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-aboutPage: true
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-markdown: kramdown
-highlighter: rouge
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
-plugins: [jekyll-paginate]
-paginate: 20
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
-# Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+paginate:         5
 
-permalink:       /:year/:title/
+# Custom vars
+version:          2.1.0
 
-defaults:
-    -
-        scope:
-            path: "" # empty string for all files
-            type: pages
-        values:
-            layout: default
-    -
-        scope:
-            path: "" # empty string for all files
-            type: posts
-        values:
-            layout: post
-    -
-        scope:
-            path: ""
-            type: drafts
-        values:
-            layout: post
+github:
+  repo:           https://github.com/poole/hyde
