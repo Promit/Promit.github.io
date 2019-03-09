@@ -14,9 +14,9 @@ Excluding pad graphics and a few incidentals, this pad costs about $160 to put t
 
 <strong>Current Status: </strong>Core pad is done but top hasn't been installed and control board hasn't been assembled. These are not changed from V3.
 <h2>Building the Base</h2>
-[caption id="" align="alignnone" width="2048"]<img src="https://i.imgur.com/O9s3tAZ.jpg" alt="" width="2048" height="1536" /> Basic layout sketch of the initial cut pad.[/caption]
+<img src="https://i.imgur.com/O9s3tAZ.jpg" alt="" /> Basic layout sketch of the initial cut pad.[/caption]
 
-[caption id="" align="alignnone" width="2048"]<img src="https://i.imgur.com/IqSQ6Er.jpg" alt="" width="2048" height="1536" /> Note: the dimensions in this photo are slightly wrong and I had to go back and fix it. Always triple check your measurements before cutting and gluing![/caption]
+<img src="https://i.imgur.com/IqSQ6Er.jpg" alt="" /> Note: the dimensions in this photo are slightly wrong and I had to go back and fix it. Always triple check your measurements before cutting and gluing![/caption]
 
 The base layer is 1/2" plywood cut to 34" x 33". The extra inch on top will be useful for wiring. I've marked off the steps in pencil, and then begun adding the spacer layer. <del>I'm using 1/8" hardboard this time around, for shallower steps than in the past.</del> The bottom panels are 10.25" square, the top are 10.25" x 5.25". The upper panels are sized to leave space for Start/Select buttons. Next step is beginning to lay out the contacts. I'm using <a href="https://www.amazon.com/gp/product/B01L16U5CY/ref=ppx_yo_dt_b_asin_title_o05__o00_s01?ie=UTF8&amp;psc=1">3" copper tape</a> today, but 4" is probably even better because it's less work and barely costs any more. <strong>NOTE: </strong>Hardboard is completely flush, no click action at all. Use 1/4" MDF for the spacer panels instead, and construction paper over the sensors to fine tune if needed.
 
@@ -34,7 +34,7 @@ Start by building the top contact. Cut four 10.5" squares of Lexan, and cover on
 
 Add a little strip around to the top side to serve as our connection point for later.
 
-[caption id="" align="alignnone" width="1536"]<img src="https://i.imgur.com/afQtoGS.jpg" alt="" width="1536" height="2048" /> It's important here to place the contact strip off center. You don't want it touching the extension strip on the common contact. I also clip the corners to leave space between steps.[/caption]
+<img src="https://i.imgur.com/afQtoGS.jpg" alt="" /> It's important here to place the contact strip off center. You don't want it touching the extension strip on the common contact. I also clip the corners to leave space between steps.[/caption]
 
 Place an 11" square of Velostat over the bottom of the contact. It does not need to cover it completely.
 
@@ -42,9 +42,9 @@ Place an 11" square of Velostat over the bottom of the contact. It does not need
 
 <img src="https://i.imgur.com/XlFz9n0.jpg" />Finally, duct tape secures the sensor in place. I've done a couple experiments now and it appears that too much duct tape is a bad idea. This is a pressure sensor and excessive tape applies so much pressure that there isn't enough range left to reliably detect steps.
 
-[caption id="" align="alignnone" width="2048"]<img src="https://i.imgur.com/bPrJpQi.jpg?1" alt="" width="2048" height="1536" /> The clipped corners leave space for hardboard strips that will fill the space between diagonal steps.[/caption]
+<img src="https://i.imgur.com/bPrJpQi.jpg?1" alt="" /> The clipped corners leave space for hardboard strips that will fill the space between diagonal steps.[/caption]
 
-[caption id="" align="alignnone" width="2048"]<img src="https://i.imgur.com/WOADlva.jpg" alt="" width="2048" height="1536" /> Four assembled sensors. It's a good idea to test them with a multimeter at this point, while the duct tape still isn't that strongly bonded. You're looking for 70+ ohms at rest, and sub-10 with foot pressure.[/caption]
+<img src="https://i.imgur.com/WOADlva.jpg" alt="" /> Four assembled sensors. It's a good idea to test them with a multimeter at this point, while the duct tape still isn't that strongly bonded. You're looking for 70+ ohms at rest, and sub-10 with foot pressure.[/caption]
 
 I also add some corner boundaries at this stage. These are hardboard strips of 1.75" x 0.5" and they are important to have good corner separation of the steps. The gap is important, wiring is going to run through there.
 <h2><img src="https://i.imgur.com/kYZf49l.jpg" /></h2>
