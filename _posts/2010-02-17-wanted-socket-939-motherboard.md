@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wanted: Socket 939 motherboard
+title: "Wanted: Socket 939 motherboard"
 date: 2010-02-17 14:40
 author: ventspace
 comments: true

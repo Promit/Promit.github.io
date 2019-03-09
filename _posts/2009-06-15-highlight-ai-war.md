@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Highlight: AI War
+title: "Highlight: AI War"
 date: 2009-06-15 10:00
 author: ventspace
 comments: true

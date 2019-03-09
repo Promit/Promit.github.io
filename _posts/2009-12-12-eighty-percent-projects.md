@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Eighty Percent" Projects
+title: "\"Eighty Percent\" Projects"
 date: 2009-12-12 20:07
 author: ventspace
 comments: true
