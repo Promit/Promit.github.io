@@ -1,0 +1,15 @@
+---
+layout: post
+title: Secondary Effects of iTunes Game Pricing
+date: 2010-01-20 12:27
+author: ventspace
+comments: true
+categories: [AR Labs, iPhone, ipod, Non-technical]
+---
+Every so often, <a href="http://www.gamasutra.com/view/news/26766/Capybaras_Vella_iPhones_99Cent_Push_Is_Frustrating_And_Terrible.php">someone complains</a> about the overall price depression on the iTunes App Store to rock bottom. It's a theme that recurs fairly often, and I'm generally a little dubious about the people who are upset about it. It seems mostly to be a product of an actual free market -- you may think your game is worth five dollars, but if someone is producing similar quality for one, well tough shit. Remember, consoles games are basically price fixed and that has a substantial effect on the PC market as well. Now iTunes is a more nuanced discussion than that, exacerbated by the ranking system by which apps rise above the crowd in the store. I'm dubious of the complaints, but I don't mean to suggest they're without merit. Instead, I want to highlight some of the secondary effects I've noticed.
+
+One of the problems created by the 99 cent push is that the <i>entire</i> pricing scale has been shoved downwards. Even though many of the dollar games are mindless junk, they make it difficult to sell a game for ten dollars, let alone twenty or thirty -- even if the quality is comparable to a thirty dollar PSP game. I can't think of many industries where a 10x or more price difference between the bottom and top tiers is sustainable. (Cars and housing come to mind; both are status symbols.) The value proposition on the low end is just too damaging to the top. The result is depressed game budgets and timelines. You can't make money with quality on the iPhone. It's all about quantity. For it, game development is about producing mediocrity quickly and efficiently. That's unfortunate.
+
+That effect chains to middleware, it turns out. Middleware should be insanely valuable as an efficiency proposition for developers, but it too falls victim to the same bottom-line analysis, and that has crushed prices on everything. FMOD, Unity, EmotionFX and more have all collapsed to bargain per title rates that are simply unheard of anywhere else. I have to admit this caught me off guard, but basically selling middleware to iPhone game developers is identical to selling iPhone games to users. The vast majority simply will not pay anything higher than absurdly low prices, so producing a high quality, detailed SDK is a difficult value proposition. It's more valuable to set impulse-buy prices and rely on marketing and sheer numbers to fill the gap.
+
+The upside of all this is that, like everything else, the Ghost SDK will be stupid cheap. I'm hopeful that it will be available shortly after GDC, which is not long at all. I'm estimating that 400 title licenses of Ghost will be sufficient to sustain AR Labs another year (end of 2011) without any other revenue or investment, which sounds like a rather large target but who knows.

@@ -1,0 +1,21 @@
+---
+layout: post
+title: Windows API Code Pack -- Is It Any Good?
+date: 2009-08-19 15:35
+author: ventspace
+comments: true
+categories: [csharp, Direct3D, Direct3D 11, DirectX, DirectX 11, Software Engineering]
+---
+Just to be clear, I'm restricting my comments to the DirectX section of the codepack. I'll probably be integrating some of the other bits (jump list support etc) into SlimTune, so we'll see how that goes later. But around a week ago, they finally released 1.0. Same day as Windows 7 was out on MSDN actually -- I'm pretty sure that's not a coincidence. SlimDX's release with Direct3D 11, Direct2D, and DirectWrite should come later this month, if all goes well. Now, the code pack does cover a few things we don't, like the Windows Imaging Component.
+
+So it's not beta anymore. Now, I'm fairly sure that they haven't looked at our code for legal reasons, but I did make some <a href="http://forums.xna.com/forums/p/33897/194766.aspx#194766">harsh comments</a> about their work. They've made some changes that seem to follow directly from those comments. I'm about to make some more. I've been perusing the release and frankly, it's just not any good. They seem to have spent most of their time implementing equally shoddy support for D3D 10 than fixing the actual problems. I'm going to run through all the reasons I see that this thing is not well done.
+
+Okay, so they added a math library. I very pointedly slammed them for not having one in the 0.90 release, so let's start with the bread and butter of graphics -- Vector3F, as it's called in the Code Pack. It offers X, Y, Z, Normalize, NormalizeInPlace, static Dot, static Cross, operator +, operator -, and (in)equality comparisons. Yes, that's the entire class. No ref overloads, which are important for performance. No other helper methods of any kind. No PropertyGrid or System.ComponentModel compatibility. Matrix is even sadder -- it has operator * (by-value only) and Identity. That's it. Compare to <a href="http://slimdx.org/latestdocs/Default.aspx?topic=Class+Reference/SlimDX+Namespace/Matrix+Structure">ours</a>, or <a href="http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.matrix_members.aspx">XNA</a>.
+
+Functions that return object references still create brand new instances, which then not only have to be garbage collected, but if you don't remember to Dispose them, they'll be queued for finalization too. (These USED to be properties...it's an improvement, I guess.) This is a similar effect to the original MDX's event problems, just smeared out over time and difficult to track. There's certainly no leak tracking functionality like SlimDX has. (OTOH they will be released <i>eventually</i>, which SlimDX does not promise.) These are lots of small allocations, which the .NET GC is good at handling, but if you don't remember to Dispose them, or have a lot of them in general, this could really sour your day. It's a problem that just doesn't exist in SlimDX.
+
+As for 64 bit support, it's simply not configured at all in the solution (remember, the code pack is source code only, no binaries). I set up and ran an x64 build that went off without a hitch, and there's no inherent reason for x64 to not work. I haven't tested it though, and neither has anyone else apparently.
+
+Lastly, even though they've added D3D 10 support, there's no D3DX support in here at all. They basically invite you to go ahead and write what you need yourself, but none of it is done for you. For something that's intended to make your job easier by letting you use managed code, this is another odd omission.
+
+The 1.0 of the code pack IS dramatically improved in several respects -- 0.90 had no math code at all, the memory situation was far worse, etc. Even so, this really doesn't inspire a lot of confidence. Although the core APIs are wrapped, the support code is basically non-existent. There's no binary distribution or redistributable, so you're on your own there. I know this is probably a small team at Microsoft with nowhere near the level of resources it needs, and I'm sorry that I'm continually trashing your work. But if this is what constitutes the successor to Managed DirectX, I don't think SlimDX is in any danger and I can't say I mind.

@@ -1,0 +1,31 @@
+---
+layout: post
+title: Selling Middleware
+date: 2010-03-04 16:56
+author: ventspace
+comments: true
+categories: [Animation, AR Labs, BioReplicant, Euphoria, game development, NaturalMotion, Physics, Software Engineering]
+---
+So a few days ago, we published a video demo of our BioReplicant technology. In particular, we published it without saying much. No explanation of how it works, what problems it solves, or how it could be used. That was a very important and carefully calculated decision. I felt it was critical that people be allowed to see our technology without any tinting or leading on our part. Some of the feedback was very positive, some very negative, and a whole lot in between. I'm sure we'll get an immense amount more from GDC, but this initial experience has been critical in understanding what people want and what they think we're offering. 
+
+To a large extent, people's expectations do not align with what BioReplicants actually does. Our eventual goal is to meet those expectations, but in the meantime there is a very tricky problem of explaining what our system actually does for them. I think that will continue to be a problem, exacerbated by the fact that on the surface, we seem to be competing with NaturalMotion's Euphoria product, and in fact we've encouraged that misconception.
+
+In truth, it's not the case. We aren't doing anything like what NM does internally, and all we're really doing is trying to solve the same problem every game has to solve. Everybody wants realistic, varied, complex, and reactive animations for their game. Everybody! And frankly, they don't need Euphoria or BioReplicants to do it. There's at least three GDC talks this year on the subject. That's why it's important to step back and look at why middleware even exists.
+
+The very first thing to realize is that <em>games are hard to make</em>. There is a wide array of complex intersecting problems that go into the production of every last title you see on the shelf, in Steam, or anywhere else.
+<ol>
+	<li>Engineering a game's underlying systems is complicated in the best of situations, and every title evolves dramatically, throwing half your previous work out the door every six months. Developers do not want anything that makes their lives harder. Developers love <em>almost anything</em> that makes their lives easier!</li>
+	<li>Art production for a game is incredibly time consuming. Time is money. Streamlined production is worth <em>a lot</em> of money.</li>
+	<li>Games are expected to run on very limited hardware. How much RAM do you guys have in your laptops? A PlayStation 3 has 200 MB. <em>Two hundred.</em></li>
+	<li>Designing a fun game that isn't a rehash of everything before it is very, <em>very</em> tricky. Companies go a long way to make a game not look like a rehash. Here's a hint: developer diaries are rarely produced for any other reason. Nobody would ever have noticed NM Euphoria in Force Unleashed otherwise.</li>
+	<li>If there's one thing harder than making a game, it's selling it. Each console gets a couple hundred new game releases every year and most of them represent a substantial loss. Publishers are willing to do an awful lot to avoid that loss. A new gimmick might flop, but when you drop $30M to ship a game, $32M instead is probably worth the odds.</li>
+</ol>
+The point of middleware is simply to alleviate one or more of these problems. That's all. Selling middleware, then, is mainly a matter of convincing people in games that you can tackle these problems in a net positive way. Most game developers are also gamers, and our instinct is to focus on 5 and to a lesser extent 4 (the two are somewhat intertwined). Middleware developers usually try to convince game developers that their games will be more fun with the middleware product. We've been doing the same. It's very possible that it's true, but it's just one piece of the puzzle.
+
+So in moving from a concept to a product, it's critical to start with a very solid understanding of these points, and to pick exactly which ones the product attacks. Nobody hits all five. With Force Unleashed, LucasArts designed a game based almost entirely around Euphoria, and you know what? It's a terrible game. Once you get past the vaguely clever physics, there is no substance there. Asking people to design games around BioReplicants is a tall order. NM has been forced into the position of doing it for themselves.
+
+"Every tackle is different." As if EA etc haven't thought of this already. A big failing of NaturalMotion Euphoria is that it is an epic amount of work to integrate. It's very easy to spot a single animation being overused in a game. But throw in five animations and behave vaguely smart about which one you pick and when, and suddenly no one can tell the difference. Put in some parametric control over details of the animation, and you can probably turn those five animations into twenty. All it cost you was extra staff to do the animations and a programmer to figure out how to squeeze that into memory. Kind of expensive, but a hell of a lot easier to do than Euphoria integration. We're not competing against NaturalMotion. The two of us are competing against the status quo.
+
+A shooter now will have half a dozen knock-back animations for hits to different body parts, another half dozen for falls, and so on. Somebody sits down and animates them. Can we make that animator's job more efficient? I bet we can. How much memory do you suppose those animations eat? If we can do them on the fly and open up that memory for other things, engineering staff will trip over themselves to thank us. I bet a BioReplicant walk takes up a lot less memory than a keyframed walk, and I bet we can replace a dozen hand-drawn animations with two physically driven animations.
+
+Revolutionizing how people play games is glamorous and tempting. It's an important goal. Full blown rigid-body physics made the jump between five and ten years ago. But that's just not how you sell a middleware product. On the other hand, if you can inflict a moderately sized change in game <em>development</em>, <em>developers</em> will happily pay you. After that, you can start changing the actual games.

@@ -1,0 +1,29 @@
+---
+layout: post
+title: NHibernate Is Pretty Cool
+date: 2010-07-15 15:41
+author: ventspace
+comments: true
+categories: [database, nhibernate, rdms, SlimTune, Software Engineering]
+---
+My <a href="http://ventspace.wordpress.com/2010/06/30/windows-installer-is-terrible/">last tech post</a> was heavily negative, so today I'm going to try and be more positive. I've been working with a library called NHibernate, which is itself a port of a Java library called Hibernate. These are very mature, long-standing object relational mapping systems that I've started exploring lately.
+
+Let's recap. Most high end storage requirements, and nearly all web site storage, are handled using <a href="http://en.wikipedia.org/wiki/Relational_database_management_system">relational database management systems</a>, RDBMS for short. These things were developed starting in 1970, along with the now ubiquitous SQL language for working with them. The main SQL standard was laid down in 1992, though most vendors provide various extensions for their specific systems. Ignoring some recent developments, SQL is the gold standard for handling relational database systems.
+
+When I set out to build SlimTune, one of the ideas I had was to eschew the fairly crude approach that most performance tools take with storage and build it around a fully relational database. I bet that I could make it work fast enough to be usable for profiling, and simultaneously more expressive and flexible. The ability to view the profile live as it evolves is derived directly from this design choice. Generally speaking I'm really happy with how it turned out, but there was one mistake I didn't understand at the time.
+
+SQL is garbage. (Damnit, I'm being negative again.)
+
+I am not bad at SQL, I don't think. I know for certain that I am not good at SQL, but I can write reasonably complex queries and I'm fairly well versed in the theory behind relational databases. The disturbing part is that SQL is very inconsistent across database systems. The standard is missing a lot of useful functionality -- string concatenation, result pagination, etc -- and when you're using embedded databases like SQLite or SQL Server Compact, various pieces of the language are just plain missing. Databases also have more subtle expectations about what operations may or may not be allowed, how joins are set up, and even syntactical details about how to refer to tables and so on. 
+
+SQL is immensely powerful if you can choose to only support a limited subset of database engines, or if your query needs are relatively simple. Tune started running into problems almost immediately. The visualizers in the released version are using a very careful balance of the SQL subset that works just so on the two embedded engines that are in there. It's not really a livable development model, especially as the number of visualizers and database engines increases. I needed something that would let me handle databases in a more implementation-agnostic way.
+
+After some research it became clear that what I needed was an object/relational mapper, or ORM. Now an ORM does not exist to make databases consistently; that's mostly a side effect of what they actually do, which is to hide the database system entirely. ORMs are actually the most popular form of <i>persistence layers</i>. A persistence layer exists to allow you to convert "transient" data living in your code to "persistent" data living in a data store, and back again. Most code is object oriented and most data stores are relational, hence the popularity of object/relational mapping. 
+
+After some reading, I picked <a href="http://nhforge.org/">NHibernate</a> as my ORM of choice, augmented by <a href="http://fluentnhibernate.org/">Fluent mapping</a> to get away from the XML mess that NH normally uses. It's gone really well so far, but over the course of all this I've learned it's very important to understand one thing about persistence frameworks. They are <i>not</i> particularly generalized tools, by design. Every framework, NH included, has very specific ideas about how the world ought to work. They tend to offer various degrees of customization, but you're expected to adhere to a specific model and straying too far from that model will result in pain.
+
+Persistence frameworks are very simple and effective tools, but they sacrifice both performance and flexibility to do so. (Contrast to SQL, which is fast and flexible but a PITA to use.) Composite keys? Evil! Dynamic table names? No way! I found that NHibernate was amongst the best when it came to allowing me to bend the rules -- or flat out break them. Even so, Tune is a blend of NH and native database code, falling back to RDBMS-specific techniques in areas that are performance sensitive or outside of the ORM's world-view. For example, I use database specific SQL queries to clone tables for snapshots. That's not something you can do in NH because the table itself is an implementation detail. I also use database specific techniques to perform high-volume database work, as NH is explicitly meant for <a href="http://en.wikipedia.org/wiki/Online_transaction_processing">OLTP</a> and not major bulk operations.
+
+Despite all the quirks, I've been really pleased with NHibernate. It's solved some major design problems in a relatively straightforward fashion, despite the somewhat awkward learning curve and lots of bizarre problem solving due to my habit of using a relational database as a relational database. It provides a query language that is largely consistent across databases, and very effective tools for building queries dynamically without error-prone string processing. Most importantly, it makes writing visualizers for Tune and all around much smoother, and that means more features more quickly.
+
+So yeah, I like NHibernate. That said, I also like <a href="http://benjismith.net/index.php/2005/09/30/hate-frameworks/">this rant</a>. Positive thinking!

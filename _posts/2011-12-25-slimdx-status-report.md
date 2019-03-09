@@ -1,0 +1,21 @@
+---
+layout: post
+title: SlimDX Status Report
+date: 2011-12-25 15:17
+author: ventspace
+comments: true
+categories: [SlimDX]
+---
+Alright, we've talked DirectX and XNA already so let's move on to the subject of SlimDX.
+
+First off, there's a release coming any day now. A number of things were screwed up with the September 2011 release, mostly my fault, and I've been busy patching them up. So there's a new December 2011 release around the corner, and 4.0 runtimes will be available right at the start. I do want to point out, though, that the runtimes are strictly for end-users (non-developers) who are consuming SlimDX apps. You don't need them to develop, and for that matter you probably don't need them at all if you're at a game development company. They install the DX runtimes, VC runtimes, and SlimDX itself. Given that both runtimes are now well over a year old, odds are you already have this stuff. While that doesn't excuse my personal failures in getting this stuff out in a timely fashion, there is almost certainly no need to worry over it for 90% of you.
+
+We've been promising a SlimDX 2.0 release for some time now, with substantially revised architecture. The redesign is based around many of the same concepts driving another wrapper library called SharpDX by Alexandre Mutel. Alex was working with us for a while but we split up over some mutual differences and went our separate ways. I've decided to withhold any comments on his work one way or the other. As far as our work... we need help. The three of us (Josh Petrie, Mike Popoloski, and myself) have been working on the library for something like five years, and things are pretty stable at this point. Sure there are bug fixes that we're shipping out, but especially now that the DirectX SDK updates have stopped, the current codebase is largely good to go. The new codebase for 2.0 is really a prototype, and the simple fact is that it needs a lot of work and none of us has the time anymore.
+
+I repeat: <b>We need new people to help develop SlimDX</b>. If that doesn't happen then we're likely stuck in place, which might not be that big of a problem except for one thing: Windows 8. SlimDX 2.0 is based on a code generation system that should allow us to target C++/CLI as well as the new C++/CX language. With CX support we get not only .NET but also JavaScript and native code support to interop with Metro apps. Not only that, but it also means ARM support and SlimDX on tablets in the coming years. I think that's a big deal, if we can pull it off.
+
+When I first wrote SlimDX in 2006, I believed that automated codegen like SWIG was not well suited to creating a simple, usable wrapper. SlimDX was hand written from the ground up to make using DirectX as painless as possible, and also to reshape the DirectX API into something that made sense as a .NET API. That was directly in the footsteps of Managed DirectX which Tom Miller had created, though we took the model a lot farther in that direct path. Alex came to us with an approach for code-gen which we felt really has potential, but there's still a lot of rough edges and a lot of work in getting it to the standard which we really want it to be at. 
+
+So, who can help? You'll need to have a working familiarity with C++ and C#, and DirectX of course. It is not, contrary to popular belief, necessary to really deeply understand any of these things. Working on SlimDX is an adventure in quirks and details of interop that I can almost guarantee you have not seen. Don't worry about experience if you're looking to help out. There will be a lot to learn of course, and you're going to need a lot of free time to commit to this, but we've spent a long time building SlimDX and have a pretty solid handle on what's going on. The only other requirement is the understanding that what you get out of this is experience, an excellent resume item, and skills that are fairly rare. Money is very unlikely to appear directly unless donations take a serious uptick.
+
+If you're interested in helping out, please post here, or ping us via Twitter or IRC or e-mail or GameDev or whatever. I really do need one or two people to join as regular developers, otherwise DirectX and Windows may well move forward without a SlimDX to help glue the bits together.
