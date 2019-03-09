@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PSA: Sonic File Finder
+title: "PSA: Sonic File Finder"
 date: 2009-12-08 00:03
 author: ventspace
 comments: true

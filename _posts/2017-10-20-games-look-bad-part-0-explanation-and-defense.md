@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Games Look Bad, Part 0: Explanation and Defense
+title: "Games Look Bad, Part 0: Explanation and Defense"
 date: 2017-10-20 13:36
 author: ventspace
 comments: true

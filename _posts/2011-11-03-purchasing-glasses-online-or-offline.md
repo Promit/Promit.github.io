@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Purchasing Glasses: Online or Offline?
+title: "Purchasing Glasses: Online or Offline?"
 date: 2011-11-03 22:55
 author: ventspace
 comments: true

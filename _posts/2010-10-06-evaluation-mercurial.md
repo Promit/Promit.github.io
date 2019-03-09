@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Evaluation: Mercurial
+title: "Evaluation: Mercurial"
 date: 2010-10-06 11:13
 author: ventspace
 comments: true

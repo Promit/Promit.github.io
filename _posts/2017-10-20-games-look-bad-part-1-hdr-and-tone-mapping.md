@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Games Look Bad, Part 1 - HDR and Tone Mapping
+title: "Games Look Bad, Part 1: HDR and Tone Mapping"
 date: 2017-10-20 17:03
 author: ventspace
 comments: true

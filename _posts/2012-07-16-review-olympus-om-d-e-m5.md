@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Review: Olympus OM-D E-M5
+title: "Review: Olympus OM-D E-M5"
 date: 2012-07-16 00:42
 author: ventspace
 comments: true

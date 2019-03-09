@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Confirmed: Clear WiMax Bandwidth Throttling
+title: "Confirmed: Clear WiMax Bandwidth Throttling"
 date: 2010-10-02 12:44
 author: ventspace
 comments: true

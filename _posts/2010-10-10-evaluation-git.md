@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Evaluation: Git
+title: "Evaluation: Git"
 date: 2010-10-10 18:59
 author: ventspace
 comments: true

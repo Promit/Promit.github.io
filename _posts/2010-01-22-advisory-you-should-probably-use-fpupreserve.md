@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advisory: You Should Probably Use FpuPreserve
+title: "Advisory: You Should Probably Use FpuPreserve"
 date: 2010-01-22 13:37
 author: ventspace
 comments: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Revolution, Part 2: BioReplicant Animation
+title: "Revolution, Part 2: BioReplicant Animation"
 date: 2009-09-24 23:02
 author: ventspace
 comments: true

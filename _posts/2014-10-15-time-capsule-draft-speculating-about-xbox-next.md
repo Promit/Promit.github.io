@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time Capsule Draft: "Speculating About Xbox Next"
+title: "Time Capsule Draft: \"Speculating About Xbox Next\""
 date: 2014-10-15 11:50
 author: ventspace
 comments: true

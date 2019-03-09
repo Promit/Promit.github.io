@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Favorite SVN Tool: SmartSVN
+title: "My Favorite SVN Tool: SmartSVN"
 date: 2009-12-22 16:41
 author: ventspace
 comments: true

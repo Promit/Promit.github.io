@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows Installer: Worse Than I Thought
+title: "Windows Installer: Worse Than I Thought"
 date: 2010-11-10 16:59
 author: ventspace
 comments: true

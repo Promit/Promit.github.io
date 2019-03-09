@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PSA: MetalScroll
+title: "PSA: MetalScroll"
 date: 2009-12-17 12:00
 author: ventspace
 comments: true

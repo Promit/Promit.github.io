@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Napster: Now with just a hint of scam
+title: "Napster: Now with just a hint of scam"
 date: 2009-12-11 18:45
 author: ventspace
 comments: true

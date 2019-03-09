@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our New Game: I Am Dolphin
+title: "Our New Game: I Am Dolphin"
 date: 2014-10-07 21:21
 author: ventspace
 comments: true

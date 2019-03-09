@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Game Code Build Times: RAID 0, SSD, or both for the ultimate in speed?
+title: "Game Code Build Times: RAID 0, SSD, or both for the ultimate in speed?"
 date: 2014-09-16 19:08
 author: ventspace
 comments: true

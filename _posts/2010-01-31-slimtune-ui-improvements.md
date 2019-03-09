@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SlimTune: UI Improvements
+title: "SlimTune: UI Improvements"
 date: 2010-01-31 10:08
 author: ventspace
 comments: true

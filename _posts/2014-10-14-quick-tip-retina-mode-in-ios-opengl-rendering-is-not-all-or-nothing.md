@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quick tip: Retina mode in iOS OpenGL rendering is not all-or-nothing
+title: "Quick tip: Retina mode in iOS OpenGL rendering is not all-or-nothing"
 date: 2014-10-14 15:50
 author: ventspace
 comments: true

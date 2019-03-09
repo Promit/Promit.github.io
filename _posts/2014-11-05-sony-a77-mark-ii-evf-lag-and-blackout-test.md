@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sony A77 Mark II: EVF Lag and Blackout Test
+title: "Sony A77 Mark II: EVF Lag and Blackout Test"
 date: 2014-11-05 16:05
 author: ventspace
 comments: true

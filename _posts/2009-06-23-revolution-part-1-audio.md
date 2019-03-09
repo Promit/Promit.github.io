@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Revolution, Part 1: Audio
+title: "Revolution, Part 1: Audio"
 date: 2009-06-23 10:00
 author: ventspace
 comments: true

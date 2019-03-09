@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To: Guitar with Lasers
+title: "How To: Guitar with Lasers"
 date: 2010-11-10 00:45
 author: ventspace
 comments: true
