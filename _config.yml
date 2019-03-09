@@ -1,18 +1,23 @@
-# Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
-paginate:     1
-locale:       "en"
+name: Wangana
+description:  Jekyll theme
 
-# About/contact
-author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
 
-# Gems
-gems:
-  - jekyll-paginate
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-#Others
-markdown: kramdown
+url: https://thesowah.github.io/wangana
+permalink: /:year/:month/:title/
+owner:
+    name: #
+    twitter: #
+    github: #
+    disqus_shortname: #
+
+ga_id: #
+ga_username: #
+
+timezone: Africa/Accra
