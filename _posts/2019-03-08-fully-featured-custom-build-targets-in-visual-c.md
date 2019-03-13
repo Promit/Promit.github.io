@@ -4,7 +4,8 @@ title: Fully Featured Custom Build Targets in Visual C++
 date: 2019-03-08 16:39
 author: ventspace
 comments: true
-categories: [c++, MSBuild, Non-technical, visual studio]
+categories: [Software Engineering]
+tags: [c++, MSBuild, visual studio]
 image: custombuildtool.png
 ---
 <!-- wp:paragraph -->

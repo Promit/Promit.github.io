@@ -4,7 +4,8 @@ title: Cinematic Color
 date: 2012-09-11 15:32
 author: ventspace
 comments: true
-categories: [cinema, cinematography, Graphics, graphics, Photography]
+categories: [Photography]
+tags: [cinema, cinematography, Graphics, graphics]
 ---
 I chose not to go to SIGGRAPH 2012, and I'm starting to wish I had. Via <a href="http://lousodrome.net/blog/light/2012/09/11/readings-on-color-management/">Julien Guertault</a>, I found the course on <a href="http://cinematiccolor.com/">Cinematic Color</a>.
 

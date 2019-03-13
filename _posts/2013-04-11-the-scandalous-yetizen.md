@@ -4,7 +4,8 @@ title: The Scandalous Yetizen Costume
 date: 2013-04-11 00:18
 author: ventspace
 comments: true
-categories: [cosplay, costume, Games, igda, Non-technical, yetizen]
+categories: [Non-technical]
+tags: [cosplay, costume, Games, igda, yetizen]
 ---
 There's been a lot of chatter on the various blogs and news sites about the IGDA and Yetizen party incident. I'm not going to rehash that. See these articles if you're not up to date on the whole controversy:
 http://www.joystiq.com/2013/03/28/igda-party-features-dancers-prompts-controversy-resignations/

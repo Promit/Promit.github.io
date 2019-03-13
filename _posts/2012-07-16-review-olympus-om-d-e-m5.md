@@ -4,7 +4,8 @@ title: "Review: Olympus OM-D E-M5"
 date: 2012-07-16 00:42
 author: ventspace
 comments: true
-categories: [csc, dslr, e-m5, em5, micro four thirds, milc, olympus, om-d, omd, Photography]
+categories: [Photography]
+tags: [csc, dslr, e-m5, em5, micro four thirds, milc, olympus, om-d, omd]
 ---
 <a href="http://ventspace.files.wordpress.com/2012/07/p10405821.jpg"><img src="http://ventspace.files.wordpress.com/2012/07/p10405821.jpg?w=1024" alt="" title="Olympus OM-D E-M5 getting wet." width="1024" height="682" class="aligncenter size-large wp-image-917" /></a>
 I've mentioned in the past that as an extension of my game development work, I began to explore photography. I'm a big fan of the Micro Four Thirds mirrorless cameras, and I recently purchased the newest iteration in the line: the Olympus OM-D E-M5. I thought I'd go ahead and do a review, since a number of people have asked me about the camera. To make a long story short, Olympus has finally gotten serious and this camera is a force to be reckoned with. Much more importantly, the E-M5 is a lot of <i>fun</i> to shoot with. I enjoy photography much more with it than anything I've ever used, and for an enthusiast that's crucial.

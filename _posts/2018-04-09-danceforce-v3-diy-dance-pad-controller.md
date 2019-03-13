@@ -4,7 +4,8 @@ title: DanceForce V3 DIY dance pad for DDR
 date: 2018-04-09 15:12
 author: ventspace
 comments: true
-categories: [bemani, dance, dance dance revolution, ddr, diy, Games, konami, Non-technical]
+categories: [Non-technical]
+tags: [bemani, dance, dance dance revolution, ddr, diy, Games, konami]
 ---
 <em><img class="alignnone size-full wp-image-1642" src="https://ventspace.files.wordpress.com/2018/04/dsc06363-adj.jpg" alt="DSC06363-adj" width="3564" height="2769" />This is the result of several years of work and testing now, and I'm happy to finally publish it for everyone. All of the text, design, and artwork in this post are under the Creative Commons CC-BY license. That is, you are allowed to modify and share as you wish as long as I, Promit Roy, am credited as the origin. I also politely ask, but do not legally require, that you let me know if you build or modify these and share your own images.</em>
 

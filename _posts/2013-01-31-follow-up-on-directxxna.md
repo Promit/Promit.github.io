@@ -4,7 +4,7 @@ title: Follow-up on DirectX/XNA
 date: 2013-01-31 17:45
 author: ventspace
 comments: true
-categories: [Graphics, SlimDX]
+categories: [SlimDX]
 ---
 Received today, and hopefully the "you can quote me" part means this is an exception to NDA because it's important:
 <blockquote>The message said “DirectX is no longer evolving as a technology.” That is definitely not true in any way, shape or form. Microsoft is actively investing in DirectX as the unified graphics foundation for our key platforms, including Xbox 360, Windows Phone and Windows. DirectX is evolving and will continue to evolve. For instance, right now we’re investing in some very cool graphics code authorizing [sic] technology in Visual Studio. We have absolutely no intention of stopping innovation with DirectX, and you can quote me on that. :)</blockquote>

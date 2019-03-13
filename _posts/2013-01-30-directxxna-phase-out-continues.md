@@ -4,7 +4,7 @@ title: DirectX/XNA Phase Out Continues
 date: 2013-01-30 12:50
 author: ventspace
 comments: true
-categories: [Graphics, SlimDX]
+categories: [SlimDX]
 ---
 
 ---
