@@ -1,15 +1,19 @@
 ---
-# Add a comment to make this file sass-y.
-# Change this file for any custom CSS.
+# If you use the haacked/haackbar Jekyll Theme, you do not need to add this file
+# unless you want to customize the CSS styles
+#
+# To customize the theme's CSS, copy this file to your site with the same directory
+# structure. Add your customizations.
 ---
 
-/* We need to add display:inline in order to align the '>>' of the 'read more' link */
-.post-excerpt p {
-	display:inline;
-}
+//
+// Common customizations
+// 
+// $header-background-color: YOUR_FAVE_BACKGROUND_COLOR;
+// $brand-color:      YOUR_FAVE_COLOR;
+// 
+// $post-font-family: YOUR_FAVE_CONTENT_FONT;
+// $base-font-family: YOUR_FAVE_FONT;
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax",
-    "stars"
-;
+
+@import 'haackbar';
