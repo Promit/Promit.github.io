@@ -30,11 +30,13 @@ image: custombuildtool.png
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1701} -->
-<figure class="wp-block-image"><img src="https://ventspace.files.wordpress.com/2019/03/customtarget-final-1.png" alt="" class="wp-image-1701" /><figcaption>Now we have property pages for our custom target, along with custom properties for the command line switches.</figcaption></figure>
+![]({{ site.post-images}}/customtarget-final-1.png)
+*Now we have property pages for our custom target, along with custom properties for the command line switches.*
 <!-- /wp:image -->
 
 <!-- wp:image {"id":1698} -->
-<figure class="wp-block-image"><img src="https://ventspace.files.wordpress.com/2019/03/customtarget-cmdline.png" alt="" class="wp-image-1698" /><figcaption>Command line display, including a box to insert additional options.</figcaption></figure>
+![]({{ site.post-images}}/customtarget-cmdline.png)
+*Command line display, including a box to insert additional options.*
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
