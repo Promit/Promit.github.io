@@ -16,6 +16,10 @@ layout: default
     </h2>
     {% include post-meta.html post=post %}
 
+    {% if post.image %}
+      <img src="{{ site.baseurl }}/post-images/{{ post.image }}" />
+    {% endif %}
+    
     {% if post.excerpt %}
       {{ post.excerpt }}
     {% else %}
