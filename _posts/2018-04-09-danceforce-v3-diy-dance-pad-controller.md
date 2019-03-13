@@ -7,17 +7,18 @@ comments: true
 categories: [Non-technical]
 tags: [bemani, dance, dance dance revolution, ddr, diy, Games, konami]
 ---
-<em><img class="alignnone size-full wp-image-1642" src="https://ventspace.files.wordpress.com/2018/04/dsc06363-adj.jpg" alt="DSC06363-adj" width="3564" height="2769" />This is the result of several years of work and testing now, and I'm happy to finally publish it for everyone. All of the text, design, and artwork in this post are under the Creative Commons CC-BY license. That is, you are allowed to modify and share as you wish as long as I, Promit Roy, am credited as the origin. I also politely ask, but do not legally require, that you let me know if you build or modify these and share your own images.</em>
+![]({{ site.post-images}}/dancepad/dsc06363-adj.jpg)
+*This is the result of several years of work and testing now, and I'm happy to finally publish it for everyone. All of the text, design, and artwork in this post are under the Creative Commons CC-BY license. That is, you are allowed to modify and share as you wish as long as I, Promit Roy, am credited as the origin. I also politely ask, but do not legally require, that you let me know if you build or modify these and share your own images.*
 
 I've been working on this for a long time, and it's finally evolved to the point that I'm able to share the full design and build instructions for this dance pad. I know Dance Dance Revolution is a blast from the past for most, but it continues to be something I enjoy a lot. Unfortunately as its commercial popularity has faded, so has the range of products for those who are still playing via StepMania on a PC platform. Most people go with the expensive Omega GX pads, which are built as a family business effort in the USA. I support their work, but DIY saves some money and is always more fun too.
 
-If you are within traveling distance of northern <strong>Baltimore, MD </strong>and would like to try the pad in person, please contact me and we can work something out.
+If you are within traveling distance of northern **Baltimore, MD** and would like to try the pad in person, please contact me and we can work something out.
 
 There have been plenty of DIY pad designs published or shown over the years, using a variety of materials. Most common designs are meant to emulate full arcade play, with a heavy wood/steel base and high effort steps. These tend to have poor edge/corner sensitivity, high pressure requirements, and significant weight and bulk making them difficult to move and store. Some use foam spacers which don't have sufficiently consistent or precise behavior for serious play. There are frequently sharp or hard metal and screw edges that are quite unpleasant on bare feet. I've also observed reliability problems as the sensors are susceptible to dirt ingress, weather strip or foam edging slowly wears, and some designs (including Omega) use foil contacts that are susceptible to tearing.
 
-I believe I have managed to solve all of these problems. Using a material called "Velostat", I've designed and built a new style of sensor that is solid state and <em>completely</em> sealed. Nothing tears. Nothing moves. There is nowhere for dust to enter. It's sensitive to ounces of pressure. Indeed you can simply mount four of these sensors to a plywood board, wire it up, and play. The lack of moving parts means there is no tactile feedback in the sensor itself however, and most of the design work is about designing an inexpensive pad around these sensors which does offer tactile feedback and good aesthetics. It's easy to build and quite forgiving about mistakes. The sensitivity is also easily tweakable after it's built. While it's not especially cheap, I believe that this design is near indestructible <em>and</em> sufficiently precise for competition-level play.
+I believe I have managed to solve all of these problems. Using a material called "Velostat", I've designed and built a new style of sensor that is solid state and *completely* sealed. Nothing tears. Nothing moves. There is nowhere for dust to enter. It's sensitive to ounces of pressure. Indeed you can simply mount four of these sensors to a plywood board, wire it up, and play. The lack of moving parts means there is no tactile feedback in the sensor itself however, and most of the design work is about designing an inexpensive pad around these sensors which does offer tactile feedback and good aesthetics. It's easy to build and quite forgiving about mistakes. The sensitivity is also easily tweakable after it's built. While it's not especially cheap, I believe that this design is near indestructible *and* sufficiently precise for competition-level play.
 
-This is the Version 3 slimline pad. Version 1 was quite complex and bulky, had some reliability issues due to its <em>removable</em> modular sensors, but worked reasonably well as a proof of concept. Version 2 was an attempt to ditch the MDF and carve channels in plywood. It warped badly over time. This version cuts down significantly on bulk, complexity, and cost while improving sensitivity. I have some ideas for a future Version 4, see the bottom of the page.
+This is the Version 3 slimline pad. Version 1 was quite complex and bulky, had some reliability issues due to its *removable* modular sensors, but worked reasonably well as a proof of concept. Version 2 was an attempt to ditch the MDF and carve channels in plywood. It warped badly over time. This version cuts down significantly on bulk, complexity, and cost while improving sensitivity. I have some ideas for a future Version 4, see the bottom of the page.
 
 I'm also working on a fairly cheap way to convert the whole thing to Bluetooth wireless, which will hopefully work in the near future.
 <h2>Bill Of Materials and Cut List</h2>
@@ -60,68 +61,86 @@ Note these dimensions are for a borderless version. Some tweaks are required for
 </ul>
 Make sure to file the cut edges of the sheet metal to smooth. You don't want a sharp edge to cut into the Velostat, as that will short the sensor. Everything is set up with a little margin, which is necessary but also helps make the design a little more forgiving.
 
-[caption id="attachment_1623" align="alignnone" width="1697"]<img class="alignnone size-full wp-image-1623" src="https://ventspace.files.wordpress.com/2018/04/df-sensor-cutaway.png" alt="DF sensor cutaway" width="1697" height="771" /> Cutaway diagram of a sensor sandwich. Two electrical contact layers are separated by a Velostat layer. When compressed, the Velostat resistance drops and the button is triggered.[/caption]
+![]({{ site.post-images}}/dancepad/df-sensor-cutaway.png)
+*Cutaway diagram of a sensor sandwich. Two electrical contact layers are separated by a Velostat layer. When compressed, the Velostat resistance drops and the button is triggered.*
 
-[caption id="attachment_1603" align="alignnone" width="2787"]<img class="alignnone size-full wp-image-1603" src="https://ventspace.files.wordpress.com/2018/04/dsc06351.jpg" alt="DSC06351" width="2787" height="2694" /> Overall view of the internal pad architecture, for reference. Note: this is a prototype so a few things vary slightly from the text description.[/caption]
+![]({{ site.post-images}}/dancepad/dsc06351.jpg)
+*Overall view of the internal pad architecture, for reference. Note: this is a prototype so a few things vary slightly from the text description.*
 
 [gallery ids="1630,1631" type="square" columns="2"]
 
 And awaaaay we go!
 <h2>Build Instructions</h2>
-<ol>
-	<li>The pad is slightly oversized, with a margin at the front edge. Use pencil to mark off that edge on the plywood, and then divide the rest into a 3x3 grid of 11" squares. These lines will provide the guides for the rest of the build.</li>
-	<li>Cut 11" strips of the copper tape, and lay it down to cover each sensor location. Overlap the strips by 1" to ensure good conductivity across the surface.
+1.	The pad is slightly oversized, with a margin at the front edge. Use pencil to mark off that edge on the plywood, and then divide the rest into a 3x3 grid of 11" squares. These lines will provide the guides for the rest of the build.
+2.	Cut 11" strips of the copper tape, and lay it down to cover each sensor location. Overlap the strips by 1" to ensure good conductivity across the surface.
 
-[caption id="attachment_1610" align="alignnone" width="4240"]<img class="alignnone size-full wp-image-1610" src="https://ventspace.files.wordpress.com/2018/04/dsc06352.jpg" alt="DSC06352" width="4240" height="2832" /> Close-up of the lower contact for the Select button.[/caption]</li>
-	<li>Pull two long strips of copper tape between the L/R and U/D sensors. Pull two more strips to the Start/Select sensors. Together with the Start/Select sensors (#5), these form our common contact.</li>
-	<li>Using wood glue, glue the MDF to the plywood in the non-sensor corners. Large squares in the back corners, smaller square in the center, rectangles in the front corners. Place them 0.75" from the guidelines. Since this is awkward to clamp, I stacked a bunch of textbooks on top to set the glue, at least 30 minutes.</li>
-	<li>Add the MDF strips along the edges of the upper corners to sit around the Start/Select buttons.
+	![]({{ site.post-images}}/dancepad/dsc06352.jpg)
+	*Close-up of the lower contact for the Select button.*
 
-[caption id="attachment_1609" align="alignnone" width="4240"]<img class="alignnone size-full wp-image-1609" src="https://ventspace.files.wordpress.com/2018/04/dsc06353.jpg" alt="DSC06353" width="4240" height="2832" /> MDF laid out to frame the upper corner buttons.[/caption]</li>
-	<li>Place one Velostat sheet over each sensor location. It should cover the entire copper contact below it, except for the strip that exits to the other sensors. You may optionally glue it down but it's not necessary. There should be a little space left between the Velostat and the MDF where the plywood is still visible.</li>
-	<li>Place sheet metal top contacts over each Velostat sheet. It is critically important that these sheets do not touch copper directly anywhere. Make sure your Velostat has no tears, and isn't bunching up. The cuts are set up to leave some margin.</li>
-	<li>Attach copper tape from the sheet metal to the inner cable channel of the pad. This is our 'hot' connector. DO NOT allow this to come in contact with the copper from the common under any circumstances. If you accidentally have copper showing under and past the Velostat, use electrical tape to block it. It's fine for the top copper layer to touch the Velostat.
+3.	Pull two long strips of copper tape between the L/R and U/D sensors. Pull two more strips to the Start/Select sensors. Together with the Start/Select sensors (#5), these form our common contact.
+4.	Using wood glue, glue the MDF to the plywood in the non-sensor corners. Large squares in the back corners, smaller square in the center, rectangles in the front corners. Place them 0.75" from the guidelines. Since this is awkward to clamp, I stacked a bunch of textbooks on top to set the glue, at least 30 minutes.
+5.	Add the MDF strips along the edges of the upper corners to sit around the Start/Select buttons.
 
-[caption id="attachment_1604" align="alignnone" width="4240"]<img class="alignnone size-full wp-image-1604" src="https://ventspace.files.wordpress.com/2018/04/dsc06359.jpg" alt="DSC06359" width="4240" height="2832" /> Less duct tape on the corner buttons, which makes it easier to see the layering here.[/caption]</li>
-	<li>Duct tape the sheet metal and Velostat down to the pad as one sandwich. Make sure to tape down all four edges well, but avoid putting duct tape over the copper tape.
+	![]({{ site.post-images}}/dancepad/dsc06353.jpg)
+	*MDF laid out to frame the upper corner buttons.*
 
-[caption id="attachment_1605" align="alignnone" width="4240"]<img class="alignnone size-full wp-image-1605" src="https://ventspace.files.wordpress.com/2018/04/dsc06358.jpg" alt="DSC06358" width="4240" height="2832" /> A completed sensor with tape and weather strip.[/caption]</li>
-	<li>Glue down the MDF corner mini-strips, leaving a little space for wires to route. These strips ensure clean corner separation between steps.</li>
-	<li>It's now time to route all of the internal wiring. Solder one end of a white wire to a hot contact, then route it through the pad's internal channels and out the top. You can use the left or right side, but it's easier if you choose just one. Cut it off with plenty of lead to spare, 8-12" recommended.
+6. Place one Velostat sheet over each sensor location. It should cover the entire copper contact below it, except for the strip that exits to the other sensors. You may optionally glue it down but it's not necessary. There should be a little space left between the Velostat and the MDF where the plywood is still visible.
+7.	Place sheet metal top contacts over each Velostat sheet. It is critically important that these sheets do not touch copper directly anywhere. Make sure your Velostat has no tears, and isn't bunching up. The cuts are set up to leave some margin.
+8.	Attach copper tape from the sheet metal to the inner cable channel of the pad. This is our 'hot' connector. DO NOT allow this to come in contact with the copper from the common under any circumstances. If you accidentally have copper showing under and past the Velostat, use electrical tape to block it. It's fine for the top copper layer to touch the Velostat.
 
-[caption id="attachment_1607" align="alignnone" width="4240"]<img class="alignnone size-full wp-image-1607" src="https://ventspace.files.wordpress.com/2018/04/dsc06356.jpg" alt="DSC06356" width="4240" height="2832" /> Wire soldered to a contact and routed out. I used colored heat shrink to label them.[/caption]</li>
-	<li>Choose somewhere to connect a ground wire and run it out the top as well.</li>
-	<li>Use a glue gun to strategically place glue blobs along the wires so that nothing will move around. You want to keep these out of the way of the steps.
+	![]({{ site.post-images}}/dancepad/dsc06359.jpg)
+	*Less duct tape on the corner buttons, which makes it easier to see the layering here.*
+9.	Duct tape the sheet metal and Velostat down to the pad as one sandwich. Make sure to tape down all four edges well, but avoid putting duct tape over the copper tape.
 
-[caption id="attachment_1606" align="alignnone" width="4240"]<img class="alignnone size-full wp-image-1606" src="https://ventspace.files.wordpress.com/2018/04/dsc06357.jpg" alt="DSC06357" width="4240" height="2832" /> Close-up of the MDF corner pieces, and the wire routing with glue.[/caption]</li>
-	<li>Split the weather strip, cut it into 11" pieces, and place it on the top and bottom of each main sensor (not start/select). It should be sitting on top of the sheet metal and duct tape, right on the edge.</li>
-	<li>We need to align the top properly and make mounting holes. Place the Lexan down first, ideally propped up on something. Then place the pad MDF-down on top of the Lexan so your entire pad is face down. Line everything up <em>and clamp it</em>. Cheapie spring clamps work fine.</li>
-	<li>Using a 1/4" drill bit, put holes in the four corners of the pad so they go through all layers. Unless you're really consistent about how you do it, this step will lock down the Lexan's orientation relative to the pad so you might want to use a pen to mark that on the protective sheeting.</li>
-	<li>Hammer T-nuts into the four holes on the plywood side. Thread the M5 screws in from the other side to secure the Lexan, and then flip the whole thing face up.</li>
-	<li>Congratulations, your pad is mechanically complete! Try it out, give it a few good stomps, see how it feels. All of the buttons should have a nice deep clicky feel. If they seem too deep, we can fix that later.
+	![]({{ site.post-images}}/dancepad/dsc06358.jpg)
+	*A completed sensor with tape and weather strip.*
 
-[caption id="attachment_1633" align="alignnone" width="3236"]<img class="alignnone size-full wp-image-1633" src="https://ventspace.files.wordpress.com/2018/04/dsc06361-copy.jpg" alt="DSC06361 - Copy" width="3236" height="2832" /> She's not pretty yet, but she is fully functional.[/caption]</li>
-	<li>It's time to connect the brains of the operation. The easiest way to do this is to cut a set of new white wires and solder them separately to the Teensy board's analog inputs. I used pins 14, 16, 18, 20, 22, and 23 corresponding to A0, A2, A4, A6, A8, and A9. That left a little space between the main wires for my hamfisted soldering. If you change it, or you're not using the Teensy LC board, remember to update the code accordingly. Then you can pull the wires through some heat shrink, and solder them to the pad's internal wires.
+10.	Glue down the MDF corner mini-strips, leaving a little space for wires to route. These strips ensure clean corner separation between steps.
+11.	It's now time to route all of the internal wiring. Solder one end of a white wire to a hot contact, then route it through the pad's internal channels and out the top. You can use the left or right side, but it's easier if you choose just one. Cut it off with plenty of lead to spare, 8-12" recommended.
 
-[caption id="attachment_1645" align="alignnone" width="2283"]<img class="alignnone size-full wp-image-1645" src="https://ventspace.files.wordpress.com/2018/04/g7nnbn7.jpg" alt="g7nnbn7" width="2283" height="2530" /> No one would mistake my soldering for a skilled hand, but it works.[/caption]</li>
-	<li>We need to upload the code to the Teensy now. This will require you to install the Arduino and Teensy apps, the <a href="https://www.pjrc.com/teensy/td_download.html">instructions for that are here</a>. Once it's set up, connect a USB cable between Teensy and your computer, load Arduino, and check that everything seems sensible. You might want to load File -&gt; Examples -&gt; Teensy -&gt; Tutorial 1 -&gt; Blink and run it to check that all is well with your board. This is all covered by the <a href="https://www.pjrc.com/teensy/tutorial.html">Teensy tutorial</a>.</li>
-	<li>Make a new sketch file and <a href="https://pastebin.com/Y1vNZ56K">copy-paste my code</a> into it. Go to Tools -&gt; USB Type and make sure it's set to Serial + Mouse + Keyboard + Joystick. We only really wanted the Joystick but that's okay. Go ahead and run the code, hopefully it will load with no issue.</li>
-	<li>At long last, we can check if the pad works! Stepping on any step should illuminate the on-board LED, and it should be off otherwise. If it's lit when you're not touching anything, you have a short and need to figure out which signal is bad.</li>
-	<li>Assuming nothing has gone wrong, you now have a playable pad! This is a good time to play some test rounds of Stepmania and make sure everything fully checks out.
+	![]({{ site.post-images}}/dancepad/dsc06356.jpg)
+	*Wire soldered to a contact and routed out. I used colored heat shrink to label them.*
 
-[caption id="attachment_1661" align="alignnone" width="3024"]<img class="alignnone size-full wp-image-1661" src="https://ventspace.files.wordpress.com/2018/04/m94d5qt.jpg" alt="m94d5qt" width="3024" height="4032" /> Hot glued the hell out of the wires to secure them. Be neater than this.[/caption]</li>
-	<li>If you're using the non-slip layer, cut it to size. Spray a bunch of glue on it and on the back side of the plywood, then stick em together.</li>
-	<li>To finish up the cosmetics of the pad, unscrew the Lexan and remove the protective film from the <em>inside </em>face of the sheet. Don't lose track of which side is which! Place the graphic face down on the Lexan, and double check you have everything pointed the right direction. When you're comfortable that everything is correct, use the spray mount adhesive to glue the poster to the Lexan. The more evenly you can spray the glue, the better it will look.</li>
-	<li>Now use a utility knife to cut notches for the screws in the poster, and secure your Lexan sheet back to the top of the pad. We are done!</li>
-</ol>
+12.	Choose somewhere to connect a ground wire and run it out the top as well.
+13.	Use a glue gun to strategically place glue blobs along the wires so that nothing will move around. You want to keep these out of the way of the steps.
+
+	![]({{ site.post-images}}/dancepad/dsc06357.jpg)
+	*Close-up of the MDF corner pieces, and the wire routing with glue.*
+
+14.	Split the weather strip, cut it into 11" pieces, and place it on the top and bottom of each main sensor (not start/select). It should be sitting on top of the sheet metal and duct tape, right on the edge.
+15.	We need to align the top properly and make mounting holes. Place the Lexan down first, ideally propped up on something. Then place the pad MDF-down on top of the Lexan so your entire pad is face down. Line everything up *and clamp it*. Cheapie spring clamps work fine.
+16.	Using a 1/4" drill bit, put holes in the four corners of the pad so they go through all layers. Unless you're really consistent about how you do it, this step will lock down the Lexan's orientation relative to the pad so you might want to use a pen to mark that on the protective sheeting.
+17.	Hammer T-nuts into the four holes on the plywood side. Thread the M5 screws in from the other side to secure the Lexan, and then flip the whole thing face up.
+18.	Congratulations, your pad is mechanically complete! Try it out, give it a few good stomps, see how it feels. All of the buttons should have a nice deep clicky feel. If they seem too deep, we can fix that later.
+
+	![]({{ site.post-images}}/dancepad/dsc06361-copy.jpg)
+	*She's not pretty yet, but she is fully functional.*
+
+19.	It's time to connect the brains of the operation. The easiest way to do this is to cut a set of new white wires and solder them separately to the Teensy board's analog inputs. I used pins 14, 16, 18, 20, 22, and 23 corresponding to A0, A2, A4, A6, A8, and A9. That left a little space between the main wires for my hamfisted soldering. If you change it, or you're not using the Teensy LC board, remember to update the code accordingly. Then you can pull the wires through some heat shrink, and solder them to the pad's internal wires.
+
+	![]({{ site.post-images}}/dancepad/g7nnbn7.jpg)
+	*No one would mistake my soldering for a skilled hand, but it works.*
+
+20.	We need to upload the code to the Teensy now. This will require you to install the Arduino and Teensy apps, the <a href="https://www.pjrc.com/teensy/td_download.html">instructions for that are here</a>. Once it's set up, connect a USB cable between Teensy and your computer, load Arduino, and check that everything seems sensible. You might want to load File -&gt; Examples -&gt; Teensy -&gt; Tutorial 1 -&gt; Blink and run it to check that all is well with your board. This is all covered by the <a href="https://www.pjrc.com/teensy/tutorial.html">Teensy tutorial</a>.
+21.	Make a new sketch file and <a href="https://pastebin.com/Y1vNZ56K">copy-paste my code</a> into it. Go to Tools -&gt; USB Type and make sure it's set to Serial + Mouse + Keyboard + Joystick. We only really wanted the Joystick but that's okay. Go ahead and run the code, hopefully it will load with no issue.
+22.	At long last, we can check if the pad works! Stepping on any step should illuminate the on-board LED, and it should be off otherwise. If it's lit when you're not touching anything, you have a short and need to figure out which signal is bad.
+23.	Assuming nothing has gone wrong, you now have a playable pad! This is a good time to play some test rounds of Stepmania and make sure everything fully checks out.
+
+	![]({{ site.post-images}}/dancepad/m94d5qt.jpg)
+	*Hot glued the hell out of the wires to secure them. Be neater than this.*
+
+24.	If you're using the non-slip layer, cut it to size. Spray a bunch of glue on it and on the back side of the plywood, then stick em together.
+25.	To finish up the cosmetics of the pad, unscrew the Lexan and remove the protective film from the *inside* face of the sheet. Don't lose track of which side is which! Place the graphic face down on the Lexan, and double check you have everything pointed the right direction. When you're comfortable that everything is correct, use the spray mount adhesive to glue the poster to the Lexan. The more evenly you can spray the glue, the better it will look.
+26.	Now use a utility knife to cut notches for the screws in the poster, and secure your Lexan sheet back to the top of the pad. We are done!
+
+
 I admit on a first read through, that sounds like a lot of work. It's actually not that bad, and I spent a fair bit of time simplifying the design so that it would all go together smoothly. The key to the design is understanding how the sensor sandwich is put together. Everything else is just window dressing around those squares to make it all work and feel good to play on.
 <h2>Build Tips</h2>
-<ul>
-	<li>I found that the easiest way to cut the sheet metal is to put a carbide blade in a good utility knife, clamp the sheet between a plywood backing sheet and a yard stick, then repeatedly score the metal until it bends and breaks along the cut line. This leaves a slight edge to file on one face, but you can point that edge upwards away from the Velostat and then it's not a problem at all.</li>
-	<li>There are both DIY and commercial tracks for circular saws to get nice accurate cuts of the basic material. Do whatever works for you, but make sure to clamp things down well.</li>
-	<li>You can use a circular saw for both the Lexan and the plywood/MDF, but I recommend a higher tooth count blade - at least 40T if not 60+.</li>
-	<li>It's much cleaner to cut the Lexan if you sandwich it in sacrificial plywood.</li>
-</ul>
+*	I found that the easiest way to cut the sheet metal is to put a carbide blade in a good utility knife, clamp the sheet between a plywood backing sheet and a yard stick, then repeatedly score the metal until it bends and breaks along the cut line. This leaves a slight edge to file on one face, but you can point that edge upwards away from the Velostat and then it's not a problem at all.
+*	There are both DIY and commercial tracks for circular saws to get nice accurate cuts of the basic material. Do whatever works for you, but make sure to clamp things down well.
+*	You can use a circular saw for both the Lexan and the plywood/MDF, but I recommend a higher tooth count blade - at least 40T if not 60+.
+*	It's much cleaner to cut the Lexan if you sandwich it in sacrificial plywood.
+
 <h2>Adjustments</h2>
 As built, the steps are fairly clicky and fairly deep. It's easy to make them more sensitive. Simply cut some card paper to roughly 10" x 11" and lay it on top of the sensors and in between the weather strip. You can use any thickness you like, and layer it as much as you want. Some double sided tape will help secure the sheets. For most people, I do recommend putting in one layer of card to soften the pad a little bit.
 
