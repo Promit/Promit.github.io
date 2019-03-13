@@ -5,6 +5,7 @@ date: 2019-02-19 15:18
 author: ventspace
 comments: true
 categories: [Non-technical]
+featured: true
 ---
 If you're unfamiliar with my DanceForce work or the previous versions, please read the introduction of my <a href="https://ventspace.wordpress.com/2018/04/09/danceforce-v3-diy-dance-pad-controller/">V3 build post</a> for the rationale and advantages of this particular approach to a hard pad and what I'm going for. In short, the DF is a slimmer, lighter hardpad that can be more reliable and consistent than conventional designs due to its use of pressure sensitive sensors that are separated from the "click action" of the actual steps.
 

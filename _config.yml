@@ -1,9 +1,9 @@
 # Site
-name: "Ventspace"
+name: "Promit's Ventspace"
 title: "Promit's Ventspace"
 description: "Life, the Universe, and Software"
 meta_description: "Promit's Ventspace"
-logo: 'assets/images/Promit1024.png'
+logo: 'assets/images/Promit256.png'
 favicon: 'assets/images/Promit256.png'
 baseurl: /
 # google_analytics: 'UA-46278016-1'
