@@ -21,44 +21,42 @@ I believe I have managed to solve all of these problems. Using a material called
 This is the Version 3 slimline pad. Version 1 was quite complex and bulky, had some reliability issues due to its *removable* modular sensors, but worked reasonably well as a proof of concept. Version 2 was an attempt to ditch the MDF and carve channels in plywood. It warped badly over time. This version cuts down significantly on bulk, complexity, and cost while improving sensitivity. I have some ideas for a future Version 4, see the bottom of the page.
 
 I'm also working on a fairly cheap way to convert the whole thing to Bluetooth wireless, which will hopefully work in the near future.
-<h2>Bill Of Materials and Cut List</h2>
+
+## Bill Of Materials and Cut List
 All together, the cost is about $220 per pad (incl. non-stick bottom, which Omega doesn't provide). I've compiled the complete material list below. I have linked to the exact items I purchased in construction; none of these are affiliate links and I don't see a dime if you click on them. If price is a concern, the poster graphic and spray mount glue are optional and can be added later. The non-slip pad can be omitted on carpet or replaced with a rubberized (Plasti-Dip) spray.
-<ul>
-	<li><a href="https://www.homedepot.com/p/Columbia-Forest-Products-3-4-in-x-4-ft-x-8-ft-PureBond-Birch-Plywood-165921/100077837">48" x 96" plywood sheet</a> - makes <strong>two</strong> pads. I have Home Depot cut these to 36" square to fit them in my car. My slimline build uses 1/4", which is lightweight but allows some flex on carpet. If you want a heavy duty pad or dislike pad flex, you can upgrade to thicker sheets (1/2" or even 3/4") - just buy equivalently longer M5 screws. Make sure the plywood is not warped!</li>
-	<li><a href="https://www.homedepot.com/p/Medium-Density-Fiberboard-Common-1-4-in-x-2-ft-x-4-ft-Actual-0-216-in-x-23-75-in-x-47-75-in-1508104/202089069">24" x 48" x 1/4" MDF sheet</a> - Enough for one pad, with a fair bit of scrap.</li>
-	<li>48" x 96" x 0.040" Lexan/polycarbonate sheet - makes <strong>two</strong> pads. Try making an offer, I have seen it on sale for a lot less than the $118 list price. This 40 mil works well, I have tested as thick as 0.093" (Home Depot stock) and it works but makes the steps significantly stiffer. I don't recommend sizing down to 0.030". I also don't recommend acrylic, plexiglass, etc. <strong>Update 2/12/2019: </strong>It appears that there's been a massive price spike in my preferred choice of Lexan sheet. <a href="https://www.ebay.com/itm/LEXAN-MAKROLON-SHEET-POLYCARBONATE-MAKROLON-CLEAR-1-16-x-48-x-96/361830273468">This 0.060" thick material</a> ($80) is my current replacement recommendation, and this seller will cut for free.</li>
-	<li><a href="https://www.amazon.com/HobbyUnlimited-Copper-Conductive-Adhesive-27yards/dp/B073WKD4RT/ref=sr_1_15?ie=UTF8&amp;qid=1523817397&amp;sr=8-15&amp;keywords=copper+tape">2" copper conductive adhesive tape</a> - Used for base contact layer, reduces the amount of sheet metal and soldering required. Probably enough to make a whole bunch of pads.</li>
-	<li><a href="https://www.homedepot.com/p/M-D-Building-Products-36-in-x-36-in-Plain-Aluminum-Sheet-in-Silver-57000/100351161">36" x 36" x 0.019" aluminum sheet metal</a> - Unfortunately we need five out of nine square feet here. You'll have leftovers.</li>
-	<li>5x <a href="https://www.adafruit.com/product/1361">Velostat/Linqstat sheet</a> - The heart of it. If out of stock at Adafruit, try <a href="http://tinkersphere.com/conductive-thread-fabric/1454-velostat-pressure-sensitive-conductive-sheet.html">Tinkersphere</a> instead.</li>
-	<li><a href="https://www.homedepot.com/p/Frost-King-E-O-5-16-in-x-1-4-in-x-17-ft-Black-EPDM-Cellular-Rubber-Weatherstrip-Tape-V25BK/202844545">EPDM rubber weather strip tape</a> - It's important that you get the D-profile stuff that splits in half. Do not get normal "rubber foam" weather strip. The consistent springiness of EPDM works very well here.</li>
-	<li><a href="https://www.amazon.com/gp/product/B00T6RQCSC/ref=od_aui_detailpages00?ie=UTF8&amp;th=1">Gorilla felt/rubber rug pad 4' x 6' </a>- optional but highly recommended non-slip layer, makes <strong>two</strong> pads, keeps things in place pretty well.</li>
-	<li><a href="https://www.homedepot.com/p/3M-17-6-oz-High-Strength-90-Spray-Adhesive-90-24/100151277">3M 90 Adhesive spray</a> - don't need a lot. You can probably substitute many other adhesive sprays.</li>
-	<li><a href="https://www.homedepot.com/p/Titebond-II-16-oz-Premium-Wood-Glue-5004/100144210">Titebond II or similar wood glue</a> - If you have any wood glue lying around, it should work just fine.</li>
-	<li><a href="https://www.homedepot.com/p/Everbilt-M5-0-8-Zinc-Plated-Steel-T-Nut-3-Piece-per-Bag-803808/204281862">2x M5-0.8 3 Pack T-Nut</a> - That's six in total.</li>
-	<li><a href="https://www.homedepot.com/p/Everbilt-M5-0-8-x-12-mm-Stainless-Steel-Pan-Head-Combo-Drive-Machine-Screw-2-Piece-per-Pack-801088/204274568">3x M5 x 12 mm 2 pack pan head machine screw</a> - DO NOT buy flat head. PAN head only!</li>
-	<li><a href="https://www.homedepot.com/p/Gorilla-1-7-8-in-x-12-yds-Heavy-Duty-Duct-Tape-60012/100557598">Gorilla Tape 1-7/8 x 12 yards</a> - Would it even be a DIY project without duct tape? Any duct tape is probably fine.</li>
-	<li><a href="http://www.posterprintfactory.com/">33" x 33" Luster-Satin poster print graphic</a> - technically optional, but looks fabulous. I have a free design linked down below, but print anything you like. About $25.</li>
-	<li><a href="https://www.amazon.com/3M-Spray-Artists-Adhesive-MMM6065/dp/B00006IFBF">Scotch Spray Mount adhesive</a> - this oddly expensive glue is perfect for mounting the poster to the top Lexan sheet.</li>
-	<li><a href="https://www.adafruit.com/product/2997">22 AWG stranded wire</a> or similar - anything light gauge stranded will do fine. Light speaker wire or lamp cord or whatever. Don't go heavier than 18 AWG. I suggest a white roll and a black roll.</li>
-	<li><a href="https://www.adafruit.com/product/2419">Teensy-LC</a> - the Arduino-compatible brainbox for the pad. For those who are technically savvy, any of the various m0 boards will work just fine, with some small code tweaks.</li>
-</ul>
+*	<a href="https://www.homedepot.com/p/Columbia-Forest-Products-3-4-in-x-4-ft-x-8-ft-PureBond-Birch-Plywood-165921/100077837">48" x 96" plywood sheet</a> - makes <strong>two</strong> pads. I have Home Depot cut these to 36" square to fit them in my car. My slimline build uses 1/4", which is lightweight but allows some flex on carpet. If you want a heavy duty pad or dislike pad flex, you can upgrade to thicker sheets (1/2" or even 3/4") - just buy equivalently longer M5 screws. Make sure the plywood is not warped!
+*	<a href="https://www.homedepot.com/p/Medium-Density-Fiberboard-Common-1-4-in-x-2-ft-x-4-ft-Actual-0-216-in-x-23-75-in-x-47-75-in-1508104/202089069">24" x 48" x 1/4" MDF sheet</a> - Enough for one pad, with a fair bit of scrap.
+*	48" x 96" x 0.040" Lexan/polycarbonate sheet - makes <strong>two</strong> pads. Try making an offer, I have seen it on sale for a lot less than the $118 list price. This 40 mil works well, I have tested as thick as 0.093" (Home Depot stock) and it works but makes the steps significantly stiffer. I don't recommend sizing down to 0.030". I also don't recommend acrylic, plexiglass, etc. <strong>Update 2/12/2019: </strong>It appears that there's been a massive price spike in my preferred choice of Lexan sheet. <a href="https://www.ebay.com/itm/LEXAN-MAKROLON-SHEET-POLYCARBONATE-MAKROLON-CLEAR-1-16-x-48-x-96/361830273468">This 0.060" thick material</a> ($80) is my current replacement recommendation, and this seller will cut for free.
+*	<a href="https://www.amazon.com/HobbyUnlimited-Copper-Conductive-Adhesive-27yards/dp/B073WKD4RT/ref=sr_1_15?ie=UTF8&amp;qid=1523817397&amp;sr=8-15&amp;keywords=copper+tape">2" copper conductive adhesive tape</a> - Used for base contact layer, reduces the amount of sheet metal and soldering required. Probably enough to make a whole bunch of pads.
+*	<a href="https://www.homedepot.com/p/M-D-Building-Products-36-in-x-36-in-Plain-Aluminum-Sheet-in-Silver-57000/100351161">36" x 36" x 0.019" aluminum sheet metal</a> - Unfortunately we need five out of nine square feet here. You'll have leftovers.
+*	5x <a href="https://www.adafruit.com/product/1361">Velostat/Linqstat sheet</a> - The heart of it. If out of stock at Adafruit, try <a href="http://tinkersphere.com/conductive-thread-fabric/1454-velostat-pressure-sensitive-conductive-sheet.html">Tinkersphere</a> instead.
+*	<a href="https://www.homedepot.com/p/Frost-King-E-O-5-16-in-x-1-4-in-x-17-ft-Black-EPDM-Cellular-Rubber-Weatherstrip-Tape-V25BK/202844545">EPDM rubber weather strip tape</a> - It's important that you get the D-profile stuff that splits in half. Do not get normal "rubber foam" weather strip. The consistent springiness of EPDM works very well here.
+*	<a href="https://www.amazon.com/gp/product/B00T6RQCSC/ref=od_aui_detailpages00?ie=UTF8&amp;th=1">Gorilla felt/rubber rug pad 4' x 6' </a>- optional but highly recommended non-slip layer, makes <strong>two</strong> pads, keeps things in place pretty well.
+*	<a href="https://www.homedepot.com/p/3M-17-6-oz-High-Strength-90-Spray-Adhesive-90-24/100151277">3M 90 Adhesive spray</a> - don't need a lot. You can probably substitute many other adhesive sprays.
+*	<a href="https://www.homedepot.com/p/Titebond-II-16-oz-Premium-Wood-Glue-5004/100144210">Titebond II or similar wood glue</a> - If you have any wood glue lying around, it should work just fine.
+*	<a href="https://www.homedepot.com/p/Everbilt-M5-0-8-Zinc-Plated-Steel-T-Nut-3-Piece-per-Bag-803808/204281862">2x M5-0.8 3 Pack T-Nut</a> - That's six in total.
+*	<a href="https://www.homedepot.com/p/Everbilt-M5-0-8-x-12-mm-Stainless-Steel-Pan-Head-Combo-Drive-Machine-Screw-2-Piece-per-Pack-801088/204274568">3x M5 x 12 mm 2 pack pan head machine screw</a> - DO NOT buy flat head. PAN head only!
+*	<a href="https://www.homedepot.com/p/Gorilla-1-7-8-in-x-12-yds-Heavy-Duty-Duct-Tape-60012/100557598">Gorilla Tape 1-7/8 x 12 yards</a> - Would it even be a DIY project without duct tape? Any duct tape is probably fine.
+*	<a href="http://www.posterprintfactory.com/">33" x 33" Luster-Satin poster print graphic</a> - technically optional, but looks fabulous. I have a free design linked down below, but print anything you like. About $25.
+*	<a href="https://www.amazon.com/3M-Spray-Artists-Adhesive-MMM6065/dp/B00006IFBF">Scotch Spray Mount adhesive</a> - this oddly expensive glue is perfect for mounting the poster to the top Lexan sheet.
+*	<a href="https://www.adafruit.com/product/2997">22 AWG stranded wire</a> or similar - anything light gauge stranded will do fine. Light speaker wire or lamp cord or whatever. Don't go heavier than 18 AWG. I suggest a white roll and a black roll.
+*	<a href="https://www.adafruit.com/product/2419">Teensy-LC</a> - the Arduino-compatible brainbox for the pad. For those who are technically savvy, any of the various m0 boards will work just fine, with some small code tweaks.
+
 Below is the cut list from the materials purchased above:
-<ul>
-	<li>34" x 33" plywood</li>
-	<li>2x 33" x 33" x 0.040" Lexan, do not remove protective sheet</li>
-	<li>2x 10.25" x 10.25" MDF</li>
-	<li>2x 5.25" x 10.25" MDF</li>
-	<li>9.5" x 9.5" MDF</li>
-	<li>4x 5" x 1" MDF strips</li>
-	<li>4x 10.75" x 10.75" sheet metal, corners slightly clipped</li>
-	<li>2x 4.5" x 8" sheet metal, corners slightly clipped</li>
-	<li>4x 11.25" Velostat sheets</li>
-</ul>
+*	34" x 33" plywood
+*	2x 33" x 33" x 0.040" Lexan, do not remove protective sheet
+*	2x 10.25" x 10.25" MDF
+*	2x 5.25" x 10.25" MDF
+*	9.5" x 9.5" MDF
+*	4x 5" x 1" MDF strips
+*	4x 10.75" x 10.75" sheet metal, corners slightly clipped
+*	2x 4.5" x 8" sheet metal, corners slightly clipped
+*	4x 11.25" Velostat sheets
+
 Note these dimensions are for a borderless version. Some tweaks are required for a classic style with borders. Finally, you will find these useful:
-<ul>
-	<li>The <a href="https://pastebin.com/Y1vNZ56K">Arduino/Teensy sketch code</a></li>
-	<li>My <a href="https://i.imgur.com/dujxHcs.jpg">poster image</a>, if you don't want to make your own (33" x 33" @ 300 dpi)</li>
-</ul>
+*	The <a href="https://pastebin.com/Y1vNZ56K">Arduino/Teensy sketch code</a>
+*	My <a href="https://i.imgur.com/dujxHcs.jpg">poster image</a>, if you don't want to make your own (33" x 33" @ 300 dpi)
+
 Make sure to file the cut edges of the sheet metal to smooth. You don't want a sharp edge to cut into the Velostat, as that will short the sensor. Everything is set up with a little margin, which is necessary but also helps make the design a little more forgiving.
 
 ![]({{ site.post-images}}/dancepad/df-sensor-cutaway.png)
@@ -70,7 +68,8 @@ Make sure to file the cut edges of the sheet metal to smooth. You don't want a s
 [gallery ids="1630,1631" type="square" columns="2"]
 
 And awaaaay we go!
-<h2>Build Instructions</h2>
+
+## Build Instructions
 1.	The pad is slightly oversized, with a margin at the front edge. Use pencil to mark off that edge on the plywood, and then divide the rest into a 3x3 grid of 11" squares. These lines will provide the guides for the rest of the build.
 2.	Cut 11" strips of the copper tape, and lay it down to cover each sensor location. Overlap the strips by 1" to ensure good conductivity across the surface.
 
@@ -135,27 +134,28 @@ And awaaaay we go!
 
 
 I admit on a first read through, that sounds like a lot of work. It's actually not that bad, and I spent a fair bit of time simplifying the design so that it would all go together smoothly. The key to the design is understanding how the sensor sandwich is put together. Everything else is just window dressing around those squares to make it all work and feel good to play on.
-<h2>Build Tips</h2>
+
+## Build Tips
 *	I found that the easiest way to cut the sheet metal is to put a carbide blade in a good utility knife, clamp the sheet between a plywood backing sheet and a yard stick, then repeatedly score the metal until it bends and breaks along the cut line. This leaves a slight edge to file on one face, but you can point that edge upwards away from the Velostat and then it's not a problem at all.
 *	There are both DIY and commercial tracks for circular saws to get nice accurate cuts of the basic material. Do whatever works for you, but make sure to clamp things down well.
 *	You can use a circular saw for both the Lexan and the plywood/MDF, but I recommend a higher tooth count blade - at least 40T if not 60+.
 *	It's much cleaner to cut the Lexan if you sandwich it in sacrificial plywood.
 
-<h2>Adjustments</h2>
+## Adjustments
 As built, the steps are fairly clicky and fairly deep. It's easy to make them more sensitive. Simply cut some card paper to roughly 10" x 11" and lay it on top of the sensors and in between the weather strip. You can use any thickness you like, and layer it as much as you want. Some double sided tape will help secure the sheets. For most people, I do recommend putting in one layer of card to soften the pad a little bit.
 
 If you want more extreme adjustments, the feel of the steps themselves can be adjusted by adding more weather strip around the edges of the sensors. I didn't like the effect of doing so, but feel free to try it. You can also add rubber or foam sheets inside the sensors, which will result in extreme sensitivity. I didn't like the effect of doing this and found that it's very difficult to play precisely with soft layers in the sensor.
-<h2>Wrapping It All Up</h2>
+
+## Wrapping It All Up
 I've put a lot of work into designing what I consider the perfect DDR pad, perhaps fifteen years too late. But since I shared the original idea for this pad on a few forums, I've had interested people contact me looking for more information. The previous designs were not suitable to share, as they needed revision and were overly complex to build and describe. I'm finally able to provide enough details for people to build their own, with a simple enough design that most people should be able to do it with a circular saw and hand tools. Hopefully there are still a few diehard fans out there who are willing to go down this road, as I did.
-<h2>Future Design Notes and Ideas</h2>
+
+## Future Design Notes and Ideas
 I want to briefly mention some of the things I'm thinking of for how the pad could change.
-<ul>
-	<li>Continued testing has shown that sheet aluminum makes a pretty poor contact - possibly due to inconsistencies the anti-oxidation coating. I've now tested the "V4" design, where 10.5" squares of Lexan are coated in copper tape for the top layer instead. There's enough scrap from the initial cutting to do it, and it's considerably better sensitivity. You can do this now, but you'll need to change the trigger threshold in the code a bit.</li>
-	<li>Lexan sheet is a major cost in the pad construction. I'd like to do a low cost version that only uses Lexan where there are actual steps, but I'm not sure how to design the pad so it still moves up and down properly and is sensitive edge to edge. Might use corner brackets, arcade style.</li>
-	<li>I'm not thrilled about the poster spray mount glue and the poster being back-mounted the way it is. It doesn't seem robust. I tried sandwiching two Lexan layers but the pad feels worse and costs a lot when I do it this way.</li>
-	<li>I'd like to transition from Teensy to a Feather M0, because the Teensy isn't really meant to be used standalone in this fashion. It has no mounting holes and no enclosures.</li>
-	<li>Adafruit now carries a Feather HUZZAH32 with real BT on board. If I can get that working, this would become a true wireless pad. It's too bad we can't act as an Xbox compatible controller or something. Going to prototype with it and see what I can figure out.</li>
-	<li>I tried putting a foam layer (Pellon FF77 from Jo-Ann) on top of the sensor, which gives a feel closer to a soft Ignition style pad. It plays very poorly though. I'm wondering if there's some kind of slim springy open-cell foam out there that could act as a soft-touch layer. Maybe felt? Heavy duty shelf liner?</li>
-	<li>For the PIU players out there, build the pad with a half inch wide MDF border around and adjust the dimensions. I think you should be able to build a 5 step pad pretty much the same way after that.</li>
-	<li>Platform upgrade - Let's say you actually want something kind of big and heavy. This could be because you have a lot of movement even with the non-slip, or because you want to assemble a grab bar. Maybe it just feels more arcade that way. You could build a 2x4 frame, add some weight, and lock it down with the same corner screws. It's even convertible this way, in case you want to move it around some of the time.</li>
-</ul>
+*	Continued testing has shown that sheet aluminum makes a pretty poor contact - possibly due to inconsistencies the anti-oxidation coating. I've now tested the "V4" design, where 10.5" squares of Lexan are coated in copper tape for the top layer instead. There's enough scrap from the initial cutting to do it, and it's considerably better sensitivity. You can do this now, but you'll need to change the trigger threshold in the code a bit.
+*	Lexan sheet is a major cost in the pad construction. I'd like to do a low cost version that only uses Lexan where there are actual steps, but I'm not sure how to design the pad so it still moves up and down properly and is sensitive edge to edge. Might use corner brackets, arcade style.
+*	I'm not thrilled about the poster spray mount glue and the poster being back-mounted the way it is. It doesn't seem robust. I tried sandwiching two Lexan layers but the pad feels worse and costs a lot when I do it this way.
+*	I'd like to transition from Teensy to a Feather M0, because the Teensy isn't really meant to be used standalone in this fashion. It has no mounting holes and no enclosures.
+*	Adafruit now carries a Feather HUZZAH32 with real BT on board. If I can get that working, this would become a true wireless pad. It's too bad we can't act as an Xbox compatible controller or something. Going to prototype with it and see what I can figure out.
+*	I tried putting a foam layer (Pellon FF77 from Jo-Ann) on top of the sensor, which gives a feel closer to a soft Ignition style pad. It plays very poorly though. I'm wondering if there's some kind of slim springy open-cell foam out there that could act as a soft-touch layer. Maybe felt? Heavy duty shelf liner?
+*	For the PIU players out there, build the pad with a half inch wide MDF border around and adjust the dimensions. I think you should be able to build a 5 step pad pretty much the same way after that.
+*	Platform upgrade - Let's say you actually want something kind of big and heavy. This could be because you have a lot of movement even with the non-slip, or because you want to assemble a grab bar. Maybe it just feels more arcade that way. You could build a 2x4 frame, add some weight, and lock it down with the same corner screws. It's even convertible this way, in case you want to move it around some of the time.
