@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Ventspace
 tagline:          'Life, the Universe, and Software'
-description:      'Promit's Ventspace: Life, the Universe, and Software'
+description:      "Promit's Ventspace: Life, the Universe, and Software"
 url:              https://promit.dev
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
