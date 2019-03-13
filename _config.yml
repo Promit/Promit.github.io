@@ -14,10 +14,11 @@ baseurl:          '/'
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
 post-images:      '/post-images'
+google_analytics: 'UA-136146093-1'
 
 author:
   name:           'Promit Roy'
-  url:            https://twitter.com/promit_roy
+  url:            https://promit.dev
 
 paginate:         5
 # paginate_path:    '/page:num'
