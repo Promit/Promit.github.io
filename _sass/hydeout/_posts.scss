@@ -87,6 +87,13 @@ h2.post-title, h2.page-title {
   }
 }
 
+img + em {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 1.0em;
+  font-style: italic;
+  font-size: 14px;
+}
 button.disqus-load {
   margin-top: 1em;
 }

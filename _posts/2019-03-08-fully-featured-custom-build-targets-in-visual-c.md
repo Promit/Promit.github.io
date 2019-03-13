@@ -13,7 +13,7 @@ image: custombuildtool.png
 
 <!-- wp:image {"id":1695} -->
 ![]({{ site.post-images}}/custombuildtool.png)
-<figcaption>Setting all of these fields up gets old real quick.</figcaption></figure>
+*Setting all of these fields up gets old real quick.*
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -21,7 +21,8 @@ image: custombuildtool.png
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1696} -->
-<figure class="wp-block-image"><img src="https://ventspace.files.wordpress.com/2019/03/customtarget1.png" alt="" class="wp-image-1696" /><figcaption>The file is now recognized as a "Resource Pack" and will build appropriately! But we have no options about how to build it and no ability to tweak the command line sent.</figcaption></figure>
+![]({{ site.post-images}}/customtarget1.png)
+*The file is now recognized as a "Resource Pack" and will build appropriately! But we have no options about how to build it and no ability to tweak the command line sent.*
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
