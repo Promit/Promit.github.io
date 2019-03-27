@@ -7,6 +7,8 @@
 
 {% if page.summary %}
 <meta name="twitter:description" content="{{ page.summary }}">
+{% else if page.excerpt %}
+<meta name="twitter:description" content="{{ page.excerpt }}">
 {% else %}
 <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
