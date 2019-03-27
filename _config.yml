@@ -4,6 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            "Promit's Ventspace"
+title_image:      "assets/images/Promit256.png"
 tagline:          'Life, the Universe, and Software'
 description:      "Life, the Universe, and Software"
 url:              https://promit.dev
@@ -13,12 +14,15 @@ baseurl:          '/'
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
-post-images:      '/post-images'
+post_images:      'post-images/'
 google_analytics: 'UA-136146093-1'
 
 author:
   name:           'Promit Roy'
   url:            https://promit.dev
+twitter_username: 'promit_roy'
+github_username: 'Promit'
+linkedin_username: 'promitroy'
 
 paginate:         5
 # paginate_path:    '/page:num'

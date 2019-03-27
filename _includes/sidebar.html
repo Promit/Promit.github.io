@@ -5,7 +5,7 @@
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
-        <img class="site-logo" src="{{ site.baseurl }}/assets/images/Promit256.png" />
+        <img class="site-logo" src="{{ site.baseurl }}/{{ site.title_image }}" />
         {{ site.title }}
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
