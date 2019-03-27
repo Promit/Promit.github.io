@@ -6,8 +6,8 @@ highlighter:      rouge
 title:            "Promit's Ventspace"
 title_image:      "assets/images/Promit256.png"
 tagline:          'Life, the Universe, and Software'
-description:      "Life, the Universe, and Software"
-url:              https://promit.dev
+description:      'Life, the Universe, and Software'
+url:              'https://promit.dev'
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
