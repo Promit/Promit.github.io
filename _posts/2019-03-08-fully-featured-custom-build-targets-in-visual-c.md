@@ -7,10 +7,10 @@ comments: true
 categories: [Software Engineering]
 tags: [c++, MSBuild, visual studio]
 image: custombuildtool.png
+summary: A few days ago I was setting up a new resource build pipeline for our games, and wanted to integrate the build directly in Visual Studio. The goal was to include a resource manifest file in the project, and have them be fed to my compiler as part of the normal VC project build.
 ---
-<!-- wp:paragraph -->
+
 <p>A few days ago I was setting up a new resource build pipeline for our games, and wanted to integrate the build directly in Visual Studio. The goal was to include a resource manifest file in the project, and have them be fed to my compiler as part of the normal VC project build. Often the starting point for this is a simple command line entered as a <a href="https://docs.microsoft.com/en-us/cpp/ide/specifying-build-events?view=vs-2017">Custom Build Event</a>, but those are basically just dumb commands that don't follow the project files at all. The next step up from there is configuring a <a href="https://docs.microsoft.com/en-us/cpp/ide/specifying-custom-build-tools?view=vs-2017">Custom Build Tool</a> on the files in question. This works well once you have it set up, but there are distinct drawbacks. Each file is configured completely separately, and there's no way to share configuration. Adding the file to the project doesn't do anything unless you go in and set several properties for the build tool. There has to be a better way.</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1695} -->
 ![]({{ site.post-images}}/custombuildtool.png)
