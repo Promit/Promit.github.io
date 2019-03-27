@@ -7,7 +7,7 @@ comments: true
 categories: [Non-technical]
 tags: [bemani, dance, dance dance revolution, ddr, diy, Games, konami]
 ---
-![]({{ site.post-images}}/dancepad/dsc06363-adj.jpg)
+![]({{ site.post_images}}/dancepad/dsc06363-adj.jpg)
 *This is the result of several years of work and testing now, and I'm happy to finally publish it for everyone. All of the text, design, and artwork in this post are under the Creative Commons CC-BY license. That is, you are allowed to modify and share as you wish as long as I, Promit Roy, am credited as the origin. I also politely ask, but do not legally require, that you let me know if you build or modify these and share your own images.*
 
 I've been working on this for a long time, and it's finally evolved to the point that I'm able to share the full design and build instructions for this dance pad. I know Dance Dance Revolution is a blast from the past for most, but it continues to be something I enjoy a lot. Unfortunately as its commercial popularity has faded, so has the range of products for those who are still playing via StepMania on a PC platform. Most people go with the expensive Omega GX pads, which are built as a family business effort in the USA. I support their work, but DIY saves some money and is always more fun too.
@@ -59,10 +59,10 @@ Note these dimensions are for a borderless version. Some tweaks are required for
 
 Make sure to file the cut edges of the sheet metal to smooth. You don't want a sharp edge to cut into the Velostat, as that will short the sensor. Everything is set up with a little margin, which is necessary but also helps make the design a little more forgiving.
 
-![]({{ site.post-images}}/dancepad/df-sensor-cutaway.png)
+![]({{ site.post_images}}/dancepad/df-sensor-cutaway.png)
 *Cutaway diagram of a sensor sandwich. Two electrical contact layers are separated by a Velostat layer. When compressed, the Velostat resistance drops and the button is triggered.*
 
-![]({{ site.post-images}}/dancepad/dsc06351.jpg)
+![]({{ site.post_images}}/dancepad/dsc06351.jpg)
 *Overall view of the internal pad architecture, for reference. Note: this is a prototype so a few things vary slightly from the text description.*
 
 [gallery ids="1630,1631" type="square" columns="2"]
@@ -73,37 +73,37 @@ And awaaaay we go!
 1.	The pad is slightly oversized, with a margin at the front edge. Use pencil to mark off that edge on the plywood, and then divide the rest into a 3x3 grid of 11" squares. These lines will provide the guides for the rest of the build.
 2.	Cut 11" strips of the copper tape, and lay it down to cover each sensor location. Overlap the strips by 1" to ensure good conductivity across the surface.
 
-	![]({{ site.post-images}}/dancepad/dsc06352.jpg)
+	![]({{ site.post_images}}/dancepad/dsc06352.jpg)
 	*Close-up of the lower contact for the Select button.*
 
 3.	Pull two long strips of copper tape between the L/R and U/D sensors. Pull two more strips to the Start/Select sensors. Together with the Start/Select sensors (#5), these form our common contact.
 4.	Using wood glue, glue the MDF to the plywood in the non-sensor corners. Large squares in the back corners, smaller square in the center, rectangles in the front corners. Place them 0.75" from the guidelines. Since this is awkward to clamp, I stacked a bunch of textbooks on top to set the glue, at least 30 minutes.
 5.	Add the MDF strips along the edges of the upper corners to sit around the Start/Select buttons.
 
-	![]({{ site.post-images}}/dancepad/dsc06353.jpg)
+	![]({{ site.post_images}}/dancepad/dsc06353.jpg)
 	*MDF laid out to frame the upper corner buttons.*
 
 6. Place one Velostat sheet over each sensor location. It should cover the entire copper contact below it, except for the strip that exits to the other sensors. You may optionally glue it down but it's not necessary. There should be a little space left between the Velostat and the MDF where the plywood is still visible.
 7.	Place sheet metal top contacts over each Velostat sheet. It is critically important that these sheets do not touch copper directly anywhere. Make sure your Velostat has no tears, and isn't bunching up. The cuts are set up to leave some margin.
 8.	Attach copper tape from the sheet metal to the inner cable channel of the pad. This is our 'hot' connector. DO NOT allow this to come in contact with the copper from the common under any circumstances. If you accidentally have copper showing under and past the Velostat, use electrical tape to block it. It's fine for the top copper layer to touch the Velostat.
 
-	![]({{ site.post-images}}/dancepad/dsc06359.jpg)
+	![]({{ site.post_images}}/dancepad/dsc06359.jpg)
 	*Less duct tape on the corner buttons, which makes it easier to see the layering here.*
 9.	Duct tape the sheet metal and Velostat down to the pad as one sandwich. Make sure to tape down all four edges well, but avoid putting duct tape over the copper tape.
 
-	![]({{ site.post-images}}/dancepad/dsc06358.jpg)
+	![]({{ site.post_images}}/dancepad/dsc06358.jpg)
 	*A completed sensor with tape and weather strip.*
 
 10.	Glue down the MDF corner mini-strips, leaving a little space for wires to route. These strips ensure clean corner separation between steps.
 11.	It's now time to route all of the internal wiring. Solder one end of a white wire to a hot contact, then route it through the pad's internal channels and out the top. You can use the left or right side, but it's easier if you choose just one. Cut it off with plenty of lead to spare, 8-12" recommended.
 
-	![]({{ site.post-images}}/dancepad/dsc06356.jpg)
+	![]({{ site.post_images}}/dancepad/dsc06356.jpg)
 	*Wire soldered to a contact and routed out. I used colored heat shrink to label them.*
 
 12.	Choose somewhere to connect a ground wire and run it out the top as well.
 13.	Use a glue gun to strategically place glue blobs along the wires so that nothing will move around. You want to keep these out of the way of the steps.
 
-	![]({{ site.post-images}}/dancepad/dsc06357.jpg)
+	![]({{ site.post_images}}/dancepad/dsc06357.jpg)
 	*Close-up of the MDF corner pieces, and the wire routing with glue.*
 
 14.	Split the weather strip, cut it into 11" pieces, and place it on the top and bottom of each main sensor (not start/select). It should be sitting on top of the sheet metal and duct tape, right on the edge.
@@ -112,12 +112,12 @@ And awaaaay we go!
 17.	Hammer T-nuts into the four holes on the plywood side. Thread the M5 screws in from the other side to secure the Lexan, and then flip the whole thing face up.
 18.	Congratulations, your pad is mechanically complete! Try it out, give it a few good stomps, see how it feels. All of the buttons should have a nice deep clicky feel. If they seem too deep, we can fix that later.
 
-	![]({{ site.post-images}}/dancepad/dsc06361-copy.jpg)
+	![]({{ site.post_images}}/dancepad/dsc06361-copy.jpg)
 	*She's not pretty yet, but she is fully functional.*
 
 19.	It's time to connect the brains of the operation. The easiest way to do this is to cut a set of new white wires and solder them separately to the Teensy board's analog inputs. I used pins 14, 16, 18, 20, 22, and 23 corresponding to A0, A2, A4, A6, A8, and A9. That left a little space between the main wires for my hamfisted soldering. If you change it, or you're not using the Teensy LC board, remember to update the code accordingly. Then you can pull the wires through some heat shrink, and solder them to the pad's internal wires.
 
-	![]({{ site.post-images}}/dancepad/g7nnbn7.jpg)
+	![]({{ site.post_images}}/dancepad/g7nnbn7.jpg)
 	*No one would mistake my soldering for a skilled hand, but it works.*
 
 20.	We need to upload the code to the Teensy now. This will require you to install the Arduino and Teensy apps, the <a href="https://www.pjrc.com/teensy/td_download.html">instructions for that are here</a>. Once it's set up, connect a USB cable between Teensy and your computer, load Arduino, and check that everything seems sensible. You might want to load File -&gt; Examples -&gt; Teensy -&gt; Tutorial 1 -&gt; Blink and run it to check that all is well with your board. This is all covered by the <a href="https://www.pjrc.com/teensy/tutorial.html">Teensy tutorial</a>.
@@ -125,7 +125,7 @@ And awaaaay we go!
 22.	At long last, we can check if the pad works! Stepping on any step should illuminate the on-board LED, and it should be off otherwise. If it's lit when you're not touching anything, you have a short and need to figure out which signal is bad.
 23.	Assuming nothing has gone wrong, you now have a playable pad! This is a good time to play some test rounds of Stepmania and make sure everything fully checks out.
 
-	![]({{ site.post-images}}/dancepad/m94d5qt.jpg)
+	![]({{ site.post_images}}/dancepad/m94d5qt.jpg)
 	*Hot glued the hell out of the wires to secure them. Be neater than this.*
 
 24.	If you're using the non-slip layer, cut it to size. Spray a bunch of glue on it and on the back side of the plywood, then stick em together.

@@ -13,7 +13,7 @@ summary: A few days ago I was setting up a new resource build pipeline for our g
 <p>A few days ago I was setting up a new resource build pipeline for our games, and wanted to integrate the build directly in Visual Studio. The goal was to include a resource manifest file in the project, and have them be fed to my compiler as part of the normal VC project build. Often the starting point for this is a simple command line entered as a <a href="https://docs.microsoft.com/en-us/cpp/ide/specifying-build-events?view=vs-2017">Custom Build Event</a>, but those are basically just dumb commands that don't follow the project files at all. The next step up from there is configuring a <a href="https://docs.microsoft.com/en-us/cpp/ide/specifying-custom-build-tools?view=vs-2017">Custom Build Tool</a> on the files in question. This works well once you have it set up, but there are distinct drawbacks. Each file is configured completely separately, and there's no way to share configuration. Adding the file to the project doesn't do anything unless you go in and set several properties for the build tool. There has to be a better way.</p>
 
 <!-- wp:image {"id":1695} -->
-![]({{ site.post-images}}/custombuildtool.png)
+![]({{ site.post_images}}/custombuildtool.png)
 *Setting all of these fields up gets old real quick.*
 <!-- /wp:image -->
 
@@ -22,7 +22,7 @@ summary: A few days ago I was setting up a new resource build pipeline for our g
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1696} -->
-![]({{ site.post-images}}/customtarget1.png)
+![]({{ site.post_images}}/customtarget1.png)
 *The file is now recognized as a "Resource Pack" and will build appropriately! But we have no options about how to build it and no ability to tweak the command line sent.*
 <!-- /wp:image -->
 
@@ -31,12 +31,12 @@ summary: A few days ago I was setting up a new resource build pipeline for our g
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1701} -->
-![]({{ site.post-images}}/customtarget-final-1.png)
+![]({{ site.post_images}}/customtarget-final-1.png)
 *Now we have property pages for our custom target, along with custom properties for the command line switches.*
 <!-- /wp:image -->
 
 <!-- wp:image {"id":1698} -->
-![]({{ site.post-images}}/customtarget-cmdline.png)
+![]({{ site.post_images}}/customtarget-cmdline.png)
 *Command line display, including a box to insert additional options.*
 <!-- /wp:image -->
 
